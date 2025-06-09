@@ -1,0 +1,32 @@
+.term-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: sans-serif;
+  padding: 0.5rem;
+  color: #e5e7eb;
+}
+
+.term-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #d1d5db;
+  cursor: pointer;
+}
+
+.term-wrapper span {
+  cursor: pointer;
+}
+
+.term-wrapper strong {
+  color: var(--brand-mid);
+}
+
+.term-wrapper input[type="checkbox"] {
+  accent-color: var(--brand-mid);
+  cursor: pointer;
+  flex-shrink: 0;
+}

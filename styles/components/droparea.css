@@ -38,5 +38,5 @@
 }
 
 .upload-icon {
-  stroke: #3b82f6;
+  stroke: var(--brand-mid);
 }
