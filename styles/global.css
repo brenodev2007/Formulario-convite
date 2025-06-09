@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Leckerli+One&family=Maven+Pro:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Baloo+2:wght@400..800&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Inconsolata:wght@200..900&family=Leckerli+One&family=Maven+Pro:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -36,11 +36,8 @@
 
   /* Font sizes */
 
-  --leckerli-font: "Leckerli One", cursive;
   --baloo-font: "Baloo 2", sans-serif;
   --Open-sans-font: "Open Sans", sans-serif;
-
-  --logo-text: 400 1rem / auto var(--leckerli-font);
 
   --heading-md: 600 0.75rem / auto var(--baloo-font);
   --heading-sm: 600 0.5rem / auto var(--baloo-font);
