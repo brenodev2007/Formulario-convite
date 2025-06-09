@@ -1,0 +1,8 @@
+.main-container {
+  background-color: var(--shape-body);
+  .back {
+    margin-top: 80px;
+    font: 600 24px/1.5 "Poppins", sans-serif;
+    color: var(--text-heading);
+  }
+}

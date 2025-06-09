@@ -33,16 +33,8 @@
 
   --text-body: #c8cdd0;
   --text-heading: #f9f9f9;
+}
 
-  /* Font sizes */
-
-  --baloo-font: "Baloo 2", sans-serif;
-  --Open-sans-font: "Open Sans", sans-serif;
-
-  --heading-md: 600 0.75rem / auto var(--baloo-font);
-  --heading-sm: 600 0.5rem / auto var(--baloo-font);
-
-  --body-md: 500 16px / auto var(--Open-sans-font);
-  --body-sm: 500 14px / auto var(--Open-sans-font);
-  --body-xs: 500 12px / auto var(--Open-sans-font);
+main {
+  background-color: var(--shape-body);
 }
