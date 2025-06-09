@@ -285,7 +285,7 @@
               </div>
 
               <div class="flex">
-                <div class="switch-wrapper flex-1>
+                <div class="switch-wrapper flex-1">
                   <label for="">Estilo: </label>
                   <div id="switch">
                     <button></button>
@@ -294,8 +294,25 @@
                 </div>
 
                 <div class="input-wrapper flex-1">
-                  <div class="droparea">
-                    <label for="">Foto de capa</label>
+                  <label for="">Foto de capa</label>
+                  <div class="file-upload-wrapper">
+                    <label class="file-upload-button">
+                      <svg
+                        class="upload-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="#3b82f6"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M12 19V6M5 12l7-7 7 7" />
+                      </svg>
+                      <span>Selecionar</span>
+                      <input type="file" id="file-input" />
+                    </label>
+                    <span id="file-name">Nenhum arquivo selecionado</span>
                   </div>
                 </div>
               </div>
