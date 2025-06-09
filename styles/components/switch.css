@@ -25,10 +25,9 @@
   animation: slide-out 0.5s forwards;
 }
 
-.light #switch button {
-  animation: slide-in 0.5s forwards;
-}
-
-#switch button:hover {
-  outline: 8px solid var(--highlight-color);
+.switch-wrapper {
+  gap: 0.5rem;
+  display: flex;
+  align-self: center;
+  justify-self: center;
 }
