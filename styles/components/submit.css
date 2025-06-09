@@ -1,0 +1,22 @@
+.btn-submit {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+  button {
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    background-color: var(--brand-dark);
+    font: 800 1.5rem "Open sans", sans-serif;
+    color: var(--text-heading);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  button:hover {
+    border: 1px solid #ffff;
+  }
+}
