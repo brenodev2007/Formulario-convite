@@ -1,27 +1,25 @@
 form {
   margin-top: 2rem;
-  display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 fieldset {
   border: 1px dashed var(--input-stroke);
   border-radius: 8px;
-  padding: 2rem;
-  width: 100%;
-  max-width: 800px;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   background-color: var(--shape-body);
+  margin-bottom: 48px;
 }
 
 legend {
   font: 600 1.1rem "Poppins", sans-serif;
   color: var(--text-heading);
   display: flex;
-  align-items: center;
   gap: 8px;
   padding: 0 0.5rem;
 }
@@ -43,7 +41,6 @@ input,
 textarea,
 select {
   appearance: none;
-  width: 100%;
   padding: 0.75rem 1rem;
   background-color: var(--input-base);
   border: 1px solid var(--input-stroke);
@@ -107,4 +104,8 @@ textarea::placeholder {
 
 .tipo-option input:checked + .icon img {
   filter: brightness(10);
+}
+
+input:hover {
+  border: 1px solid var(--brand-mid);
 }

@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.main-container {
+  flex-direction: column;
+}
+
 :root {
   --brand-light: #59b2ff;
   --brand-mid: #3487cf;

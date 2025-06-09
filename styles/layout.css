@@ -48,3 +48,10 @@ main {
     }
   }
 }
+
+.back {
+  p {
+    font: 600 1.5rem/2rem "Poppins", sans-serif;
+    color: var(--text-heading);
+  }
+}
