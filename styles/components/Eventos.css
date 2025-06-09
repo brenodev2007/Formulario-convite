@@ -1,0 +1,31 @@
+.theme-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--shape-button);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-heading);
+}
+
+.card:hover {
+  border: 2px solid var(--brand-mid);
+}

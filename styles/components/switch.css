@@ -1,0 +1,37 @@
+#switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 64px;
+  height: 32px;
+  background: var(--input-base);
+  border-radius: 99999999999px;
+  border: var(--input-stroke);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: var(--shape-hover) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  animation: slide-out 0.5s forwards;
+}
+
+.light #switch button {
+  animation: slide-in 0.5s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
