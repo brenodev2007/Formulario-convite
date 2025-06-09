@@ -23,6 +23,78 @@
           <div class="back">
             <p>Crie seu convite</p>
           </div>
+
+          <form enctype="multipart/form-data">
+            <fieldset class="sobre-evento">
+              <legend>
+                <img src="Assets/calendar.png" alt="" />
+                <p>Sobre o evento</p>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="titulo">Título</label>
+                <input id="titulo" type="text" placeholder="Nome do evento" />
+              </div>
+
+              <!-- Linha 1: Início e Fim -->
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label for="inicio">Início</label>
+                  <input id="inicio" type="datetime-local" />
+                </div>
+
+                <div class="input-wrapper flex-1">
+                  <label for="fim">Fim</label>
+                  <input id="fim" type="datetime-local" />
+                </div>
+              </div>
+
+              <!-- Linha 2: Tipo e Local -->
+              <div class="flex">
+                <div class="type-wrapper flex-1">
+                  <label class="tipo-option">
+                    <input
+                      type="radio"
+                      name="tipo"
+                      value="presencial"
+                      checked
+                    />
+                    <span class="icon"
+                      ><img src="Assets/building-2.png" alt=""
+                    /></span>
+                    <span class="text">Presencial</span>
+                  </label>
+
+                  <label class="tipo-option">
+                    <input type="radio" name="tipo" value="online" />
+                    <span class="icon"
+                      ><img src="Assets/video.png" alt=""
+                    /></span>
+                    <span class="text">Online</span>
+                  </label>
+                </div>
+
+                <div class="input-wrapper flex-1">
+                  <label for="local">Local</label>
+                  <input
+                    id="local"
+                    type="text"
+                    placeholder="Link ou Endereço"
+                  />
+                </div>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="">Descrição</label>
+                <textarea
+                  name="descricao"
+                  id="textarea"
+                  placeholder="Descrição do evento..."
+                  rows="5"
+                ></textarea>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
     </div>

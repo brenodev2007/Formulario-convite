@@ -38,3 +38,16 @@
 main {
   background-color: var(--shape-body);
 }
+
+.input-wrapper,
+.textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.type-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

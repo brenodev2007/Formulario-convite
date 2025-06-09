@@ -1,8 +1,110 @@
-.main-container {
+form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+fieldset {
+  border: 1px dashed var(--input-stroke);
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   background-color: var(--shape-body);
-  .back {
-    margin-top: 80px;
-    font: 600 24px/1.5 "Poppins", sans-serif;
-    color: var(--text-heading);
-  }
+}
+
+legend {
+  font: 600 1.1rem "Poppins", sans-serif;
+  color: var(--text-heading);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 0.5rem;
+}
+
+label {
+  font: 500 0.95rem "Open Sans", sans-serif;
+  color: var(--text-heading);
+  margin-bottom: 0.25rem;
+}
+
+.input-wrapper,
+.textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  appearance: none;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+  border-radius: 0.5rem;
+  font: 400 1rem "Open Sans", sans-serif;
+  color: var(--text-heading);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--input-placeholder);
+}
+
+.flex {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+  min-width: 240px;
+}
+
+.type-wrapper {
+  display: flex;
+  gap: 1rem;
+  background: var(--input-base);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--input-stroke);
+  justify-content: center;
+}
+
+.tipo-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: 400 0.9rem "Open Sans", sans-serif;
+  color: var(--text-heading);
+  cursor: pointer;
+}
+
+.tipo-option input {
+  display: none;
+}
+
+.tipo-option .icon {
+  background: var(--shape-hover);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tipo-option input:checked + .icon {
+  background: var(--brand-mid);
+}
+
+.tipo-option input:checked + .icon img {
+  filter: brightness(10);
 }
